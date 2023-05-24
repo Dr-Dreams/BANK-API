@@ -4,7 +4,7 @@ const bankData = require("./BankData/bank_branches.json");
 
 const app = express();
 
-// by branch_name 
+// by branch_name
 
 app.get("/bank/branch/:branch", (req, res) => {
   const branch = decodeURIComponent(
